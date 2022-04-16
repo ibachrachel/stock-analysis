@@ -9,10 +9,14 @@ This analysis was initially built because a recent finance graduate, Steve, need
 ## Results: 
 
 **Changes to the Code:**
-1. Creating a ticker index: 'tickerindex = 0' Creating this variable and setting it equal to zero before iterating over the dataset allowed for the correct index to be access across the arrays that will be introduced to the code. This action sets it to a specific position within the array; it does not set it equal to value 0. 
+
+1. Creating a ticker index: 'tickerindex = 0' 
+Creating this variable and setting it equal to zero before iterating over the dataset allowed for the correct index to be access across the arrays that will be introduced to the code. This action sets it to a specific position within the array; it does not set it equal to value 0. 
 
 
-2. Creating arrays: ' Dim tickerVolumes(12) As Long; 
+2. Creating arrays: 
+
+    ' Dim tickerVolumes(12) As Long; 
     Dim tickerStartingPrices(12) As Single; 
     Dim tickerEndingPrices(12) As Single ' 
     
@@ -20,11 +24,11 @@ This analysis was initially built because a recent finance graduate, Steve, need
     
 3. For Loops: The syntax of our For loops is important because we have to first initialize the 'tickerVolumes' to zero using a For loop. 
 
-[Initialize tickerVolumes to Zero]![image]
-(https://user-images.githubusercontent.com/102566199/163690955-7ffdab17-021e-451b-8167-2fab8b3e1d59.png). 
+[Initialize tickerVolumes to Zero]![image](https://user-images.githubusercontent.com/102566199/163690955-7ffdab17-021e-451b-8167-2fab8b3e1d59.png). 
 
-Then a For loop that loops over all the rows must be written that allows for the increase in the variable 'tickerVolumes' as it reaches the end of a ticker's data. [For Loop to run through data and extract values]![image]
-(https://user-images.githubusercontent.com/102566199/163691052-265ad536-294f-4750-81f4-f00b0309db82.png). 
+Then a For loop that loops over all the rows must be written that allows for the increase in the variable 'tickerVolumes' as it reaches the end of a ticker's data.
+
+[For Loop to run through data and extract values]![image](https://user-images.githubusercontent.com/102566199/163691052-265ad536-294f-4750-81f4-f00b0309db82.png). 
 
 Once the data is extracted from the sheet, it will be placed in a specified cell by assigning the array to that cell. 
 
