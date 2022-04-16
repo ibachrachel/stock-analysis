@@ -11,7 +11,9 @@ This analysis was initially built because a recent finance graduate, Steve, need
 
 **Changes to the Code:**
 
-1. Creating a ticker index: `tickerindex = 0`
+1. Creating a ticker index: 
+
+`tickerindex = 0`
 
 Creating this variable and setting it equal to zero before iterating over the dataset allowed for the correct index to be access across the arrays that will be introduced to the code. This action sets it to a specific position within the array; it does not set it equal to value 0. 
 
@@ -66,4 +68,20 @@ These are dramatically different than the initial time that was spent running th
 
 [Un-Refactored Code Run Time](https://user-images.githubusercontent.com/102566199/163692157-a0f1a995-f1b2-47d5-96fb-65f9b0c4487b.png)
 
+## Summary:
 
+**-Advantages and Disadvantages of Refactoring Code**
+
+*Advantages*
+Creating a more logical and efficient code allows for it to use less memory and be more flexible. By removing the unnecessary code, the script becomes easier to read and understand by others who view it. Using straightforward code will also allow for the viewer to find bugs easier, since there aren't deeply nested loops to look through. Well structured code will be accessible for future use as well because the viewer to able to understand the underlying logic that drives the code. The run time was improved and decreased because we used arrays, which allows for the code to be applied to more data. By refactoring the data, the patterns can be applied to other projects. It also doesn't hurt to use comments to describe what is happening in the code as well. By using a more logical approach, the programmer can make sure they hold true to DRY (don't repeat yourself). It's better to complete  a task in one step rather than multple factors coming in from several steps. 
+
+*Disadvantages*
+Refactoring the code might cause more errors as the code is reworked, which could lead to the results of the analysis becoming corrupt. This occured in my refactoring process and it would crash every time it was run. The code was lengthy so trying to refactor and write better code can cause the script to not flow like it was. In a professional sense, refactoring might be expensive because it requires the programmer to spend some time first understanding the code and then editing it. 
+
+**-Pros and Cons of Refactoring the Original VBA script**
+
+*Pros*
+A huge pro to refactoring the original script is that it is now possible to have a more efficient code because it is written to only have to loop through the data once. Even when checked against the original outcomes, the data came out correctly. This is a great success because it means that not only was the code correct, but it executed faster and with a more logical flow within. The comments function is a godsend because it allows for the user to step away from the code for a while and then still be able to understand the code. With the refactored code, the arrays warrant the use of comments to make sure that the user understands the method of the data extraction. It has a easier to understand structure as well, since there were not deeply nested statements.
+
+*Cons*
+The main cons that were found in the editing of the code was that the refactoring ended up introducing a huge amount of bugs into the structure. It was easier to delete everything and start from scratch because the flow was not happening. It took a lot longer than expected and required multiple attempts to make it logical. It's easy to write terrible code because it's fast and makes sense at that moment in time, so writing code that not only is dynamic enough to function right now **and** in the future takes more time and a deeper understanding of the capabilities of the program. 
