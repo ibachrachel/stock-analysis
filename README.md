@@ -25,11 +25,15 @@ Three output arrays are created to store the data that matches set qualification
     
 3. For Loops: The syntax of our For loops is important because we have to first initialize the `tickerVolumes` to zero using a For loop. 
 
-[Initialize tickerVolumes to Zero]![image](https://user-images.githubusercontent.com/102566199/163690955-7ffdab17-021e-451b-8167-2fab8b3e1d59.png). 
+[Initialize tickerVolumes to Zero]![image]
+
+(https://user-images.githubusercontent.com/102566199/163690955-7ffdab17-021e-451b-8167-2fab8b3e1d59.png). 
 
 Then a For loop that loops over all the rows must be written that allows for the increase in the variable `tickerVolumes` as it reaches the end of a ticker's data.
 
-[For Loop to run through data and extract values]![image](https://user-images.githubusercontent.com/102566199/163691052-265ad536-294f-4750-81f4-f00b0309db82.png). 
+[For Loop to run through data and extract values]![image]
+
+(https://user-images.githubusercontent.com/102566199/163691052-265ad536-294f-4750-81f4-f00b0309db82.png). 
 
 Once the data is extracted from the sheet, it will be placed in a specified cell by assigning the array to that cell. 
 
@@ -47,9 +51,11 @@ Steve should be able to look at the data and understand the findings. Through th
       
   The positive returns will be green and the negative returns will be red. This gives a clean view of all the analyzed ticker's and their return.
   [All Stocks (2018)]
+  
   ![image](https://user-images.githubusercontent.com/102566199/163691718-c4c4b3d2-1951-4004-b4b0-4fc4e2a2ba1d.png)
 
   [All Stocks (2017)]
+  
   ![image](https://user-images.githubusercontent.com/102566199/163691733-712c7133-69fe-4240-ab59-3fb1ecad803f.png)
   
   When Steve looks at this, he will be able to see that 2017 was a better year for the selected tickers. In 2017, we have only TERP having a negative return, but in 2018, most of the stocks have a negative return. The stocks that he should recommend to his clients, to diversify their stock portfolio, are ENPH and RUN because they both had positive returns in both years analyzed. ENPH had a 130% return in 2017 and an 81% return in 2018, so this has the best track record to be able to convince his clients. 
@@ -59,12 +65,16 @@ Steve should be able to look at the data and understand the findings. Through th
 Editing the code was meant to make it run more efficiently, but it would also speed up how fast the code would run as well. The refactored code was written so that it wouldn't spend time looping over data without extracting data. The initial code was written in a way that it would loop over the data multiple times to extract the data piece-by-piece. This is why arrays were used and why only one loop through the data was necessary for the correct data points to be extracted. It's possible to see the decrease in time spent running the code due to the timer that was add to the code to measure this. 
 
 [Run Time of Refactored Code: All Stocks 2017]
+
 ![image](https://user-images.githubusercontent.com/102566199/163692076-e3699881-13e7-4ed1-83f2-064fd32f1b00.png)
 
 [Run Time of Refactored Code: All Stocks 2018]
+
 ![image](https://user-images.githubusercontent.com/102566199/163692092-c1f1230e-9950-44db-94be-765482575da4.png)
 
 These are dramatically different than the initial time that was spent running the un-refactored code. 
+
+[Un-Refactored Code Run Time]
 ![image](https://user-images.githubusercontent.com/102566199/163692157-a0f1a995-f1b2-47d5-96fb-65f9b0c4487b.png)
 
 
