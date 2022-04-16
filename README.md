@@ -81,7 +81,9 @@ Refactoring the code might cause more errors as the code is reworked, which coul
 **-Pros and Cons of Refactoring the Original VBA script**
 
 *Pros*
+
 A huge pro to refactoring the original script is that it is now possible to have a more efficient code because it is written to only have to loop through the data once. Even when checked against the original outcomes, the data came out correctly. This is a great success because it means that not only was the code correct, but it executed faster and with a more logical flow within. The comments function is a godsend because it allows for the user to step away from the code for a while and then still be able to understand the code. With the refactored code, the arrays warrant the use of comments to make sure that the user understands the method of the data extraction. It has a easier to understand structure as well, since there were not deeply nested statements.
 
 *Cons*
+
 The main cons that were found in the editing of the code was that the refactoring ended up introducing a huge amount of bugs into the structure. It was easier to delete everything and start from scratch because the flow was not happening. It took a lot longer than expected and required multiple attempts to make it logical. It's easy to write terrible code because it's fast and makes sense at that moment in time, so writing code that not only is dynamic enough to function right now **and** in the future takes more time and a deeper understanding of the capabilities of the program. 
