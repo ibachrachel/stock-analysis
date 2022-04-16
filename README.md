@@ -1,2 +1,7 @@
-# stock-analysis
-Stock Information analyzed to determine if an investor should invest in more than one company
+# VBA Challenge: Refactoring Stock Analysis Code
+## Overview of Project: 
+### Purpose
+The initial analysis of the Stock data was targeted to analyze a dozen stocks, but it might not be an efficient code to run for a larger dataset. To expand the analysis, the code will need to be refactored to create a loop that loops over the data set once and collects all the information in one-go. This is a worthy task because if a code is written better then it would take less steps to execute the results, use less memory, and improve the readability. There are many ways to accomplish a task, but refactoring allows for the written code to be the most efficient way of getting results. 
+
+### Background
+This analysis was initially built because a recent finance graduate, Steve, needs to analyze if his first client's stock portfolio is sufficiently diversified. He hopes to be able to present the information in an easy-to-understand way to illustrate his findings. Based on the initial analysis of the one stock that his first client's invested in, he finds that the stock, DAQO dropped over 63% in a single year. Steve will need to offer better stocks to his clients, so he will need a complete analysis of multiple stocks within multiple years to find some options. The initial All Stocks Analysis wasn't designed to be flexible, so refactoring the code will allow for specific edits to make it useable now and in the future. 
